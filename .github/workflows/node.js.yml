@@ -6,8 +6,6 @@ name: Node.js CI/CD
 on:
   push:
     branches: [ "singlemaster" ]
-  pull_request:
-    branches: [ "singlemaster" ]
 
 jobs:
   build:
