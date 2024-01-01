@@ -27,4 +27,4 @@ jobs:
     #- run:
      #   touch .env
       #  echo "${{secrets.PROD_ENV_FILE}}" > .env
-    - run: pm2 restart /home/ubuntu/actions-runner/_work/sample-express-for-aws
+    - run: pm2 restart /home/ubuntu/actions-runner/_work/sample-express-for-aws/sample-express-for-aws
